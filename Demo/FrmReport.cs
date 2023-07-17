@@ -25,7 +25,7 @@ namespace Demo
         }
         void ShowRptBaoGia()
         {
-            ReportPrintTool printTool = new ReportPrintTool(new RptBaoGia());
+            ReportPrintTool printTool = new ReportPrintTool(new RptTest());
             printTool.ShowPreview();
             // Xuất báo cáo
             printTool.ShowPreview();
