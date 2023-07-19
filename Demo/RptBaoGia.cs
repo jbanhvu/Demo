@@ -21,7 +21,7 @@ namespace Demo
         public DataTable sp_Quotation_Detail_Select()
         {
             var arrpara = new SqlParameter[1];
-            arrpara[0] = new SqlParameter("@Quotation_PK", SqlDbType.BigInt) { Value = 10 };
+            arrpara[0] = new SqlParameter("@Quotation_PK", SqlDbType.BigInt) { Value = 11 };
             return _ac.TblReadDataSP("sp_Quotation_Detail_Select ", arrpara);
         }
         public RptBaoGia()

@@ -175,7 +175,7 @@ namespace Demo
             this.xrTable4,
             this.xrTable3,
             this.xrTable1});
-            this.TopMargin.HeightF = 452F;
+            this.TopMargin.HeightF = 423.7916F;
             this.TopMargin.Name = "TopMargin";
             // 
             // xrTable1
@@ -321,14 +321,14 @@ namespace Demo
             this.xrLabel23,
             this.xrLabel22,
             this.xrTable8});
-            this.BottomMargin.HeightF = 547F;
+            this.BottomMargin.HeightF = 565.4036F;
             this.BottomMargin.Name = "BottomMargin";
             // 
             // Detail
             // 
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable5});
-            this.Detail.HeightF = 38.23245F;
+            this.Detail.HeightF = 19.99637F;
             this.Detail.Name = "Detail";
             // 
             // xrLabel3
@@ -602,7 +602,7 @@ namespace Demo
             this.xrTable4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow6});
-            this.xrTable4.SizeF = new System.Drawing.SizeF(775.0001F, 38.33334F);
+            this.xrTable4.SizeF = new System.Drawing.SizeF(775.0001F, 26.66666F);
             this.xrTable4.StylePriority.UseBorders = false;
             // 
             // xrTableRow6
@@ -624,7 +624,7 @@ namespace Demo
             // 
             this.xrLabel19.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLabel19.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(241.4167F, 10F);
+            this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(241.4167F, 3.666656F);
             this.xrLabel19.Multiline = true;
             this.xrLabel19.Name = "xrLabel19";
             this.xrLabel19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -636,7 +636,7 @@ namespace Demo
             // xrLabel20
             // 
             this.xrLabel20.Font = new System.Drawing.Font("Arial", 6.5F);
-            this.xrLabel20.LocationFloat = new DevExpress.Utils.PointFloat(0.0001831055F, 316.6667F);
+            this.xrLabel20.LocationFloat = new DevExpress.Utils.PointFloat(0.0001822577F, 305F);
             this.xrLabel20.Multiline = true;
             this.xrLabel20.Name = "xrLabel20";
             this.xrLabel20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -649,7 +649,7 @@ namespace Demo
             this.xrTable6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(0.0001827876F, 341.6667F);
+            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(0F, 330F);
             this.xrTable6.Name = "xrTable6";
             this.xrTable6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable6.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -688,12 +688,12 @@ namespace Demo
             this.xrTable7.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable7.LocationFloat = new DevExpress.Utils.PointFloat(0.0004291535F, 366.6667F);
+            this.xrTable7.LocationFloat = new DevExpress.Utils.PointFloat(0.9999762F, 355F);
             this.xrTable7.Name = "xrTable7";
             this.xrTable7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable7.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow9});
-            this.xrTable7.SizeF = new System.Drawing.SizeF(775F, 78.7916F);
+            this.xrTable7.SizeF = new System.Drawing.SizeF(775F, 68.7916F);
             this.xrTable7.StylePriority.UseBorders = false;
             // 
             // xrTableRow9
@@ -1238,7 +1238,7 @@ namespace Demo
             // xrLabel25
             // 
             this.xrLabel25.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.xrLabel25.LocationFloat = new DevExpress.Utils.PointFloat(0F, 498.6667F);
+            this.xrLabel25.LocationFloat = new DevExpress.Utils.PointFloat(1.444405F, 498.6667F);
             this.xrLabel25.Multiline = true;
             this.xrLabel25.Name = "xrLabel25";
             this.xrLabel25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
@@ -1271,12 +1271,12 @@ namespace Demo
             this.xrTable5.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 8.250392F);
+            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrTable5.Name = "xrTable5";
             this.xrTable5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable5.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow7});
-            this.xrTable5.SizeF = new System.Drawing.SizeF(775F, 29.98206F);
+            this.xrTable5.SizeF = new System.Drawing.SizeF(775F, 19.99637F);
             this.xrTable5.StylePriority.UseBorders = false;
             // 
             // xrTableRow7
@@ -1384,10 +1384,8 @@ namespace Demo
             this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
             this.cnY_TDGDataSet1});
             this.DataAdapter = this.sp_Quotation_Detail_SelectTableAdapter;
-            this.DataMember = "sp_Quotation_Detail_Select";
-            this.DataSource = this.cnY_TDGDataSet1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(29, 23, 452, 547);
+            this.Margins = new System.Drawing.Printing.Margins(28, 23, 424, 565);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
