@@ -12,28 +12,21 @@ namespace Demo
     {
         readonly AccessData _ac = new AccessData("Data Source=172.16.0.235;Initial Catalog=CNY_TDG;Persist Security Info=True;User ID=vuda;Password=VTStek@123");
         DataTable dt;
-
-        public DataTable sp_MaterialRequestDetail_Select()
+        public DataTable sp_PurchaseRequisition_Select()
         {
             var arrPara = new SqlParameter[1];
-            arrPara[0] = new SqlParameter("@MaterialRequestPK", SqlDbType.BigInt) { Value = 2 };
-            return _ac.TblReadDataSP("sp_MaterialRequestDetail_Select", arrPara);
+            arrPara[0] = new SqlParameter("@PK",SqlDbType.BigInt) { Value = -1};
+            return _ac.TblReadDataSP("sp_PurchaseRequisition_Select", arrPara);
         }
         public RptDeNghiMuaHang()
         {
             InitializeComponent();
-            dt = sp_MaterialRequestDetail_Select();
-
-
+            dt = sp_PurchaseRequisition_Select();
             DataSet ds = new DataSet();
-            dt = sp_MaterialRequestDetail_Select();
+            dt = sp_PurchaseRequisition_Select();
             ds.Tables.Add(dt);
             this.DataSource = ds;
         }
 
-        private void xrLabel1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
-        {
-
-        }
     }
 }
